@@ -2,16 +2,16 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-/Weg-Game/[Ll]ibrary/
-/Weg-Game/[Tt]emp/
-/Weg-Game/[Oo]bj/
-/Weg-Game/[Bb]uild/
-/Weg-Game/[Bb]uilds/
-/Weg-Game/[Ll]ogs/
-/Weg-Game/[Mm]emoryCaptures/
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Mm]emoryCaptures/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
-/Weg-Game/[Aa]ssets/**/*.meta
+!/[Aa]ssets/**/*.meta
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
@@ -58,9 +58,3 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
-# Packed Addressables
-/Weg-Game/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
-
-# Temporary auto-generated Android Assets
-/Weg-Game/[Aa]ssets/[Ss]treamingAssets/aa.meta
-/Weg-Game/[Aa]ssets/[Ss]treamingAssets/aa/*
