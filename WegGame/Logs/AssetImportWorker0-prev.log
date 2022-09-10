@@ -15,7 +15,7 @@ D:/Proyectos/Unity/Weg-game/WegGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53386
+63713
 Successfully changed project path to: D:/Proyectos/Unity/Weg-game/WegGame
 D:/Proyectos/Unity/Weg-game/WegGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/Proyectos/Unity/Weg-game/WegGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 91.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 91.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -63,92 +63,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56544
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56368
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006558 seconds.
+Registered in 0.006435 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 118.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 119.21 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.726 seconds
+- Completed reload, in  0.743 seconds
 Domain Reload Profiling:
-	ReloadAssembly (726ms)
-		BeginReloadAssembly (80ms)
+	ReloadAssembly (743ms)
+		BeginReloadAssembly (81ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (526ms)
-			LoadAssemblies (78ms)
+		EndReloadAssembly (539ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (123ms)
+			SetupTypeCache (135ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (315ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (317ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (119ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (136ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
+				ProcessInitializeOnLoadAttributes (137ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004291 seconds.
+Registered in 0.004064 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Proyectos\Unity\Weg-game\WegGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Proyectos\Unity\Weg-game\WegGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.226 seconds
+- Completed reload, in  1.207 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1227ms)
-		BeginReloadAssembly (117ms)
+	ReloadAssembly (1208ms)
+		BeginReloadAssembly (147ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (985ms)
-			LoadAssemblies (86ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (934ms)
+			LoadAssemblies (84ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (319ms)
+			SetupTypeCache (314ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (95ms)
-			SetupLoadedEditorAssemblies (409ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (430ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (267ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (285ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3755 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 28 unused Assets / (154.5 KB). Loaded Objects now: 4218.
-Memory consumption went from 134.7 MB to 134.5 MB.
-Total: 4.837900 ms (FindLiveObjects: 0.285000 ms CreateObjectMapping: 0.191600 ms MarkObjects: 4.009000 ms  DeleteObjects: 0.351300 ms)
+Memory consumption went from 134.7 MB to 134.6 MB.
+Total: 3.723800 ms (FindLiveObjects: 0.318400 ms CreateObjectMapping: 0.236700 ms MarkObjects: 3.010800 ms  DeleteObjects: 0.156800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,865 +162,811 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 21448.023403 seconds.
-  path: Assets/Suburban Structure Kit/Models/Roof1.fbx
-  artifactKey: Guid(856b9fc7a0cc68b448471557ea873023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Models/Roof1.fbx using Guid(856b9fc7a0cc68b448471557ea873023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a73b36f79c387b915c1763b8c4ae6b14') in 0.240451 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Suburban Structure Kit/Textures/TexturesCom_Metal_SteelRough_1K_albedo 2.tif
-  artifactKey: Guid(ea701a0994fbcaf4b8afd209a69cc7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Textures/TexturesCom_Metal_SteelRough_1K_albedo 2.tif using Guid(ea701a0994fbcaf4b8afd209a69cc7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c041c35790fa23157f0075dc244f6a3c') in 0.037327 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Suburban Structure Kit/Textures/BrownShingles.png
-  artifactKey: Guid(ef0147215a1d17b47bd6b7534c86ce05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Textures/BrownShingles.png using Guid(ef0147215a1d17b47bd6b7534c86ce05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc492e88995f3640d8980c1eb02cf5a0') in 0.029297 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Suburban Structure Kit/Textures/TexturesCom_Metal_SteelRough_1K_albedo 1.tif
-  artifactKey: Guid(5d56e6700c87fb044becad5e52e6f098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Textures/TexturesCom_Metal_SteelRough_1K_albedo 1.tif using Guid(5d56e6700c87fb044becad5e52e6f098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6fb655943d52e3ff16155603b3a0691') in 0.017168 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Suburban Structure Kit/Textures/LightHardwood 1.png
-  artifactKey: Guid(68b15713045a87845a8ce4dfb111f17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Textures/LightHardwood 1.png using Guid(68b15713045a87845a8ce4dfb111f17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '658980ad87699a9c72369f43474929c1') in 0.012438 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Suburban Structure Kit/Models/JBlockRect1.fbx
-  artifactKey: Guid(89630f3922fc77347a75b2bfe0f9a2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Models/JBlockRect1.fbx using Guid(89630f3922fc77347a75b2bfe0f9a2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b6b00591238f105ead3b66be23d98f') in 0.053293 seconds 
+  Time since last request: 22991.114219 seconds.
+  path: Assets/Suburban Structure Kit/Materials/StackedStone1A 5.mat
+  artifactKey: Guid(8e73a2d33879d5c4fa870e04af277f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/StackedStone1A 5.mat using Guid(8e73a2d33879d5c4fa870e04af277f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392882aec18c00eb99ac4a3ebac7b138') in 0.146157 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/Suburban Structure Kit/Textures/TexturesCom_Metal_AluminumBrushed_1K_albedo.tif
-  artifactKey: Guid(0201250ee289a5847adf7e051631bdea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Textures/TexturesCom_Metal_AluminumBrushed_1K_albedo.tif using Guid(0201250ee289a5847adf7e051631bdea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcfdda70bfde8462cda9749240f65ae8') in 0.010206 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Suburban Structure Kit/Textures/LightHardwoodB.png
-  artifactKey: Guid(0b350603694c8764487bbb304743e6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Textures/LightHardwoodB.png using Guid(0b350603694c8764487bbb304743e6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57bda6dff73b54bd15ac14725e2b66d9') in 0.012336 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Suburban Structure Kit/Models/SquarePillar.fbx
-  artifactKey: Guid(fa10921985abfbe4bae1ef1c6a278c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Models/SquarePillar.fbx using Guid(fa10921985abfbe4bae1ef1c6a278c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e74dea32992bb6eac24e44a4201a793a') in 0.041198 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Suburban Structure Kit/Textures/FineWood3.png
-  artifactKey: Guid(4906a4c4e35d1f94fadee159736088b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Textures/FineWood3.png using Guid(4906a4c4e35d1f94fadee159736088b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e98931262f91e8213bde6fb9bca8998f') in 0.016699 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Suburban Structure Kit/Models/ISCorner.fbx
-  artifactKey: Guid(d91f9368a0fd3704291559f188afa8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Models/ISCorner.fbx using Guid(d91f9368a0fd3704291559f188afa8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bdb840fd3ed59167e8cf29cf44ca15d') in 0.043218 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Suburban Structure Kit/Textures/StackedStone1.png
-  artifactKey: Guid(0decb85550cb85a47a3a1d0e0ba6bd3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Textures/StackedStone1.png using Guid(0decb85550cb85a47a3a1d0e0ba6bd3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b352748d445d4da9478d94e7e9e3e485') in 0.012772 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Suburban Structure Kit/Textures/TexturesCom_Metal_SteelPlain_1K_albedo 2.tif
-  artifactKey: Guid(62c810d0fff846c418168a1fab5eabb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Textures/TexturesCom_Metal_SteelPlain_1K_albedo 2.tif using Guid(62c810d0fff846c418168a1fab5eabb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff7eea2ea5174d88373213c74bdc9981') in 0.013410 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Suburban Structure Kit/Textures/GreyTiles.png
-  artifactKey: Guid(4cf870e853e23624dbdf81d1765a69de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Textures/GreyTiles.png using Guid(4cf870e853e23624dbdf81d1765a69de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc25c20f6299e79660e868a1cf4195a') in 0.015112 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/Suburban Structure Kit/Models/Handrail.fbx
-  artifactKey: Guid(f9d42e360c6772a45aaea040d2e8dae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Models/Handrail.fbx using Guid(f9d42e360c6772a45aaea040d2e8dae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d668881bef168cc436dca9931421e1') in 0.042049 seconds 
+  path: Assets/Suburban Structure Kit/Materials/StackedStone1A 13.mat
+  artifactKey: Guid(0a1dc8e51220b844f86c774f63ff3eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/StackedStone1A 13.mat using Guid(0a1dc8e51220b844f86c774f63ff3eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831bfd07aab1f82efefb38278bb6a1f1') in 0.024888 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/Suburban Structure Kit/Textures/Concrete 1.png
-  artifactKey: Guid(d85ef168108823e4fa5016b139a00b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Textures/Concrete 1.png using Guid(d85ef168108823e4fa5016b139a00b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc660bf7fd9bfb27e536a3c68ee0bf0') in 0.012138 seconds 
+  path: Assets/Suburban Structure Kit/Materials/OutdoorTile5.mat
+  artifactKey: Guid(d5cdfe5184e68a645ae2361a8862342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/OutdoorTile5.mat using Guid(d5cdfe5184e68a645ae2361a8862342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef27dd5c5f0dd53a5b7f3d13a3844afc') in 0.027153 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Suburban Structure Kit/Textures/Woodgrain 1.png
-  artifactKey: Guid(41cc1e840115b7f42b4ec33a6dad844b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Textures/Woodgrain 1.png using Guid(41cc1e840115b7f42b4ec33a6dad844b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9acc4debd3877b3f3f5e69dde1389c9') in 0.013586 seconds 
+  Time since last request: 0.000024 seconds.
+  path: Assets/Suburban Structure Kit/Materials/StackedStone1A 15.mat
+  artifactKey: Guid(a987e642679a16b4ab14d4c383731d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/StackedStone1A 15.mat using Guid(a987e642679a16b4ab14d4c383731d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc72f7eeada473289ef00e80aed078a5') in 0.025685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Suburban Structure Kit/Materials/TileFloorB1.mat
+  artifactKey: Guid(a0d5c7684a78cda498d52b19b9701704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/TileFloorB1.mat using Guid(a0d5c7684a78cda498d52b19b9701704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39dcfbf69de1ace6192fe794a6449406') in 0.027786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Suburban Structure Kit/Materials/OutdoorTile4.mat
+  artifactKey: Guid(60c29e098e641894ba59814fe6fd60bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/OutdoorTile4.mat using Guid(60c29e098e641894ba59814fe6fd60bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05fa416663fd522a625cdb937ca267c3') in 0.027674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Suburban Structure Kit/Materials/Soffit 2.mat
+  artifactKey: Guid(df898fae3d1984644a9b20c80a3053c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/Soffit 2.mat using Guid(df898fae3d1984644a9b20c80a3053c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28008d1fb3e7bc6b9834df4979681c68') in 0.027039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Suburban Structure Kit/Materials/StackedStone1A 10.mat
+  artifactKey: Guid(b68abda3951a64643a827963a01f269d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/StackedStone1A 10.mat using Guid(b68abda3951a64643a827963a01f269d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b4ae1d8843e2bffdfd71145ee93bfae') in 0.027674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Suburban Structure Kit/Materials/WallGreen.mat
+  artifactKey: Guid(a4d5de1844922bf49baca70b49b8781d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/WallGreen.mat using Guid(a4d5de1844922bf49baca70b49b8781d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc2745227ef1642c4a4ecb57250c1c19') in 0.014331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Suburban Structure Kit/Materials/WhiteVinyl.mat
+  artifactKey: Guid(3b12b32b741bf9448b5f969d3b11dcc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/WhiteVinyl.mat using Guid(3b12b32b741bf9448b5f969d3b11dcc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '859d94e4494df815dec51cd562f68f48') in 0.013423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Suburban Structure Kit/Materials/Soffit 1.mat
+  artifactKey: Guid(f3ce75cc5adf1d54692e283c67bde7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/Soffit 1.mat using Guid(f3ce75cc5adf1d54692e283c67bde7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b0d3817b55f48ee204d9ef3de2abc91') in 0.016737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Suburban Structure Kit/Materials/Soffit 3.mat
+  artifactKey: Guid(2f7d84a7578f0f54a82c33e51f052977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/Soffit 3.mat using Guid(2f7d84a7578f0f54a82c33e51f052977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab10f09eec3bd5d2c471ead8034aac1') in 0.017183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Suburban Structure Kit/Materials/StackedStone1A 9.mat
+  artifactKey: Guid(d07f680436fe2904a8ffdcd84925f820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/StackedStone1A 9.mat using Guid(d07f680436fe2904a8ffdcd84925f820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb34776cab7abbefea1099ff25b89d0b') in 0.014165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Suburban Structure Kit/Materials/StackedStone1A.mat
+  artifactKey: Guid(461dd77e4b6db2e41bfb4705d28d98f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/StackedStone1A.mat using Guid(461dd77e4b6db2e41bfb4705d28d98f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905217dd240c9e489bc106215eae1719') in 0.018322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Suburban Structure Kit/Materials/WallGrey.mat
+  artifactKey: Guid(2790e93704f9fa04cb4552768165d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/WallGrey.mat using Guid(2790e93704f9fa04cb4552768165d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32eb6681b457a0a403ca253c19a511a') in 0.013727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Suburban Structure Kit/Materials/RedVynil.mat
+  artifactKey: Guid(de5cb46c3d0cbab4a94705ab7dfe7bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/RedVynil.mat using Guid(de5cb46c3d0cbab4a94705ab7dfe7bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25fdbe2f4b7cebc6c7095ed32ed6327a') in 0.023245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Suburban Structure Kit/Materials/WallBeige 1.mat
+  artifactKey: Guid(47aabc01e58c0684585ba236d89cd185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/WallBeige 1.mat using Guid(47aabc01e58c0684585ba236d89cd185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '142751d8b4369422c24c20ffdc77143e') in 0.013179 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/Suburban Structure Kit/Models/Baseblock.fbx
-  artifactKey: Guid(0db0e574662556d4780fb87e48f746ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Models/Baseblock.fbx using Guid(0db0e574662556d4780fb87e48f746ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee99df7b1849995d0c01c77bf73dd22') in 0.036554 seconds 
+  path: Assets/Suburban Structure Kit/Materials/WhiteCorner.mat
+  artifactKey: Guid(0f4266204147a0d43bfb6a6b5698b15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/WhiteCorner.mat using Guid(0f4266204147a0d43bfb6a6b5698b15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f1b7eb9b17a3cf151a4037a0d8a6394') in 0.016109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Suburban Structure Kit/Materials/StackedStone1A 4.mat
+  artifactKey: Guid(1298347b304969c40ba68d336497ef17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/StackedStone1A 4.mat using Guid(1298347b304969c40ba68d336497ef17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35c62f275d9b6b9e5089742d1d2d054b') in 0.012780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Suburban Structure Kit/Materials/WallWhite.mat
+  artifactKey: Guid(54683375993d9af459c9185e945c3fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/WallWhite.mat using Guid(54683375993d9af459c9185e945c3fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5908117b1418be1ab9051c6f26f9f002') in 0.012974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Suburban Structure Kit/Materials/StackedStone1A 14.mat
+  artifactKey: Guid(49d8e4d4f3a3fdf4aacb700a6ef5843a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/StackedStone1A 14.mat using Guid(49d8e4d4f3a3fdf4aacb700a6ef5843a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5f0fa2fce172c0113a8b9e818633d92') in 0.015517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Suburban Structure Kit/Materials/StackedStone1A 6.mat
+  artifactKey: Guid(15f17d2c8d224b3419a8cbf82ef2b4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/StackedStone1A 6.mat using Guid(15f17d2c8d224b3419a8cbf82ef2b4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea5f2d136a05d4d2aa3fd6dba2d783e') in 0.014851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Suburban Structure Kit/Materials/WallBeige.mat
+  artifactKey: Guid(77940af741fd94d468c040c2b69521be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/WallBeige.mat using Guid(77940af741fd94d468c040c2b69521be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd83e02b24a98c0d1903d66408ce73e04') in 0.011178 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000027 seconds.
-  path: Assets/Suburban Structure Kit/Models/CedarTriangle.fbx
-  artifactKey: Guid(562333ec7122e7d40b22433f06e2b3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Models/CedarTriangle.fbx using Guid(562333ec7122e7d40b22433f06e2b3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7cefd6c34a5f7b9b615a9dda24b3b6c') in 0.052177 seconds 
+  path: Assets/Suburban Structure Kit/Materials/StackedStone1A 16.mat
+  artifactKey: Guid(0b2968dbb26b73d4f9b3386f46b94838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/StackedStone1A 16.mat using Guid(0b2968dbb26b73d4f9b3386f46b94838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3fcd575c74a95b935a57c36bda062f7') in 0.015227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Suburban Structure Kit/Materials/WallBlue 1.mat
+  artifactKey: Guid(f76746b93dca6a34884d63e9a2f293c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/WallBlue 1.mat using Guid(f76746b93dca6a34884d63e9a2f293c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f1ca48196803846450bc00dd1928248') in 0.012243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Suburban Structure Kit/Materials/TileFloorC3.mat
+  artifactKey: Guid(565f1b7c709e20044abcffbdf3f33f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/TileFloorC3.mat using Guid(565f1b7c709e20044abcffbdf3f33f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ae3c97c38e0d802a0bfbd0035cd14c') in 0.015558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Suburban Structure Kit/Materials/WhiteSiding4.mat
+  artifactKey: Guid(84d3bf812abd9df42b830f54985f02d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/WhiteSiding4.mat using Guid(84d3bf812abd9df42b830f54985f02d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1335a97611ccf3d797ef4aa82bd1a54d') in 0.012539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Suburban Structure Kit/Materials/StackedStone1A 12.mat
+  artifactKey: Guid(0cfc8d26ced31724c82941d500b70290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/StackedStone1A 12.mat using Guid(0cfc8d26ced31724c82941d500b70290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20685e0f58ab95b2d62cb50fbaee4717') in 0.014880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Suburban Structure Kit/Materials/OutdoorTile1.mat
+  artifactKey: Guid(dcaf471b22bc3234b801150fca8d44c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/OutdoorTile1.mat using Guid(dcaf471b22bc3234b801150fca8d44c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f02b65338d39908857ef2e0741d0506d') in 0.017556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Suburban Structure Kit/Materials/StackedStone1A 8.mat
+  artifactKey: Guid(009281f15c53d6740aa039127e686fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/StackedStone1A 8.mat using Guid(009281f15c53d6740aa039127e686fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8de75fa29009919a09378e99cac6e09') in 0.013532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Suburban Structure Kit/Materials/WallRed.mat
+  artifactKey: Guid(2f1b99440afb9004886724901dcaceb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/WallRed.mat using Guid(2f1b99440afb9004886724901dcaceb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e5e36af96207a6f7e75420162ef52a') in 0.010381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Suburban Structure Kit/Materials/StackedStone1A 11.mat
+  artifactKey: Guid(28f94efb1f73e1e4cb7711183fffe425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/StackedStone1A 11.mat using Guid(28f94efb1f73e1e4cb7711183fffe425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cba5f6d670916ee3ca86fb3530011e9') in 0.016185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Suburban Structure Kit/Materials/StackedStone1A 3.mat
+  artifactKey: Guid(ad573591efb5f394da5b7066e8ba2d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/StackedStone1A 3.mat using Guid(ad573591efb5f394da5b7066e8ba2d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85bce087e27760ed790d59b7d7b294c') in 0.014832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Suburban Structure Kit/Materials/StackedStone1A 7.mat
+  artifactKey: Guid(681e540d176780a4da73989a20f8adb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/StackedStone1A 7.mat using Guid(681e540d176780a4da73989a20f8adb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849670e6ffaef1310ed2ae065a01592c') in 0.013578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Suburban Structure Kit/Materials/TileFloorB2.mat
+  artifactKey: Guid(dc8b1b8cc7a31af4cb3cc79484ae83cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/TileFloorB2.mat using Guid(dc8b1b8cc7a31af4cb3cc79484ae83cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2425c161849dede6649295127738e122') in 0.015974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Suburban Structure Kit/Materials/WhiteSiding1.mat
+  artifactKey: Guid(fbb1664bafa56e8498d8c42bc7429a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/WhiteSiding1.mat using Guid(fbb1664bafa56e8498d8c42bc7429a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7594fe77cbf35bd4e6d967ed1f3355e') in 0.013393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Suburban Structure Kit/Materials/TileFloorC2.mat
+  artifactKey: Guid(373e286205b9018438911bce7ceb1154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/TileFloorC2.mat using Guid(373e286205b9018438911bce7ceb1154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b84f634fb290c419c9414f7c127e62dd') in 0.015020 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000032 seconds.
-  path: Assets/Suburban Structure Kit/Models/HandrailBracket.fbx
-  artifactKey: Guid(cc4edba430a5e8443bb7405bdab8e221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Models/HandrailBracket.fbx using Guid(cc4edba430a5e8443bb7405bdab8e221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd40b1482ca44c3598305a2c183c579') in 0.034451 seconds 
+  path: Assets/Suburban Structure Kit/Materials/WhiteSiding2.mat
+  artifactKey: Guid(2ee34e2554f812548a5150b5c0c12e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/WhiteSiding2.mat using Guid(2ee34e2554f812548a5150b5c0c12e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e15380bf627ce95d87b0ddcdecd5551') in 0.011451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Suburban Structure Kit/Materials/StackedStone1A 2.mat
+  artifactKey: Guid(471f155764da83b4f807926b3dd011a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/StackedStone1A 2.mat using Guid(471f155764da83b4f807926b3dd011a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7293f185e7ac932ef1fe65af1797d8dd') in 0.014113 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000026 seconds.
-  path: Assets/Suburban Structure Kit/Models/WindowDoubleCasing1.fbx
-  artifactKey: Guid(5cb02f3192189a345b51bfe49308eba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Models/WindowDoubleCasing1.fbx using Guid(5cb02f3192189a345b51bfe49308eba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa1fc9c1112b384aead4c7ffc2362a73') in 0.033626 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Suburban Structure Kit/Textures/TileFloorA.png
-  artifactKey: Guid(349e72f354299fe4e86bcd81dd6b55f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Textures/TileFloorA.png using Guid(349e72f354299fe4e86bcd81dd6b55f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '979b348bb4ed372530187960cfc5ea57') in 0.012183 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Suburban Structure Kit/Models/SquareStraightPillar.fbx
-  artifactKey: Guid(11b526298437a844d80c70e1d9394f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Models/SquareStraightPillar.fbx using Guid(11b526298437a844d80c70e1d9394f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44fb71ccab2df5ca2ae0250d28ce941f') in 0.034023 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Suburban Structure Kit/Textures/FineWood2.png
-  artifactKey: Guid(7ba67a0ca5ffb9a46b755c2dd0cf33f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Textures/FineWood2.png using Guid(7ba67a0ca5ffb9a46b755c2dd0cf33f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a0e5ee0018d546c5389c55844ea8c6') in 0.014468 seconds 
+  path: Assets/Suburban Structure Kit/Materials/WallBlue.mat
+  artifactKey: Guid(81a1a19c4f7904d479b9991891766a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/WallBlue.mat using Guid(81a1a19c4f7904d479b9991891766a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4730177935a5467ac33dfefac4fcbf2') in 0.013783 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
-  path: Assets/Suburban Structure Kit/Models/DoorknobGeorgian.fbx
-  artifactKey: Guid(0d2fb4998089bd14a8689f9b9bca10d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Models/DoorknobGeorgian.fbx using Guid(0d2fb4998089bd14a8689f9b9bca10d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f69246d381273da9ed96da27260b5b') in 0.053807 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Suburban Structure Kit/Models/Overhang.fbx
-  artifactKey: Guid(98cc34048d39d784a98039fa8a444630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Models/Overhang.fbx using Guid(98cc34048d39d784a98039fa8a444630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e2b1f8c03b3cdd3b7824babdc2c3c6') in 0.058758 seconds 
+  path: Assets/Suburban Structure Kit/Materials/WhiteSiding3.mat
+  artifactKey: Guid(85c16b637a584ce44bf44955f237803e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/WhiteSiding3.mat using Guid(85c16b637a584ce44bf44955f237803e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd93500df877a6602698cafb91de4f9') in 0.013672 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000028 seconds.
-  path: Assets/Suburban Structure Kit/Models/EaveDownpipe45.fbx
-  artifactKey: Guid(9ba670fc74501ad439301eadc662496a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Models/EaveDownpipe45.fbx using Guid(9ba670fc74501ad439301eadc662496a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '032e2faf33655da767d9d22aa624a8ef') in 0.039120 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Suburban Structure Kit/Models/JBlockSquare1.fbx
-  artifactKey: Guid(0d4404e2900654e4d82aa76cf1b326db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Models/JBlockSquare1.fbx using Guid(0d4404e2900654e4d82aa76cf1b326db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ac853f705fd49523b78fa13e497f85') in 0.054453 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Suburban Structure Kit/Textures/StackedStone2.png
-  artifactKey: Guid(8896c079825edda4698819bf48c744b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Textures/StackedStone2.png using Guid(8896c079825edda4698819bf48c744b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81c99746496bf812566a6f69710ab1b') in 0.015039 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Suburban Structure Kit/Textures/FineWood1.png
-  artifactKey: Guid(084af9b4af6ed1549bf25ffbdda453a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Textures/FineWood1.png using Guid(084af9b4af6ed1549bf25ffbdda453a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623a8dc7b7b91df2fa153d3e8666f397') in 0.011037 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Suburban Structure Kit/Models/WindowCasing1.fbx
-  artifactKey: Guid(11c1314f588d81141bc7aa367b2ad415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Models/WindowCasing1.fbx using Guid(11c1314f588d81141bc7aa367b2ad415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a885a4ff1c2608f0cb86589d79c2cbc') in 0.040382 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Suburban Structure Kit/Textures/StackedStone3.png
-  artifactKey: Guid(34a260460e11dea4eb0824aaf60d82f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Textures/StackedStone3.png using Guid(34a260460e11dea4eb0824aaf60d82f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa4e69af0cdbb0110ee4b50843d15e8a') in 0.013133 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Suburban Structure Kit/Textures/BlackShingles 1.png
-  artifactKey: Guid(f90199994808fff4787c596977ca05ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Textures/BlackShingles 1.png using Guid(f90199994808fff4787c596977ca05ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54a87d362e34fa6a1a266eb141a08af') in 0.012174 seconds 
+  path: Assets/Suburban Structure Kit/Materials/TileFloorA1.mat
+  artifactKey: Guid(10a96ea7d958e3240aa9a76ea79c4453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/TileFloorA1.mat using Guid(10a96ea7d958e3240aa9a76ea79c4453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e109df33c2140fa99cc9dd38a9a4c2f') in 0.015098 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/Suburban Structure Kit/Textures/HardwoodDarkB.png
-  artifactKey: Guid(acc8caa3f4fe54d42813b089b5ed9d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Textures/HardwoodDarkB.png using Guid(acc8caa3f4fe54d42813b089b5ed9d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b88dc7dc360e1af8f6a998ec1289a14a') in 0.012892 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Suburban Structure Kit/Models/3x3Corner.fbx
-  artifactKey: Guid(ec6bf9cc939f4424b93ea24958c1af99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Models/3x3Corner.fbx using Guid(ec6bf9cc939f4424b93ea24958c1af99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4190ada18a8ba3bd396c2f569bc7f1') in 0.022320 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Suburban Structure Kit/Textures/LightHardwoodB 1.png
-  artifactKey: Guid(76db6d65ad640af4184a6ace16233d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Textures/LightHardwoodB 1.png using Guid(76db6d65ad640af4184a6ace16233d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa8f8cff3a924251c4c3ae3c6d34d530') in 0.012339 seconds 
+  path: Assets/Suburban Structure Kit/Materials/OutdoorTile3.mat
+  artifactKey: Guid(711685eec91d59e4db0f2b96d1fcab29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/OutdoorTile3.mat using Guid(711685eec91d59e4db0f2b96d1fcab29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28d3274c71d98116afd3932814a1c60') in 0.015985 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/Suburban Structure Kit/Textures/ventedSoffit.png
-  artifactKey: Guid(334475e9c3952cb4e8a48e9cb5fbc33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Textures/ventedSoffit.png using Guid(334475e9c3952cb4e8a48e9cb5fbc33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10ecf5c226ebd8e4bd8234f795d1663') in 0.013335 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Suburban Structure Kit/Textures/HardwoodDarkB 1.png
-  artifactKey: Guid(216869f7df5f5284d896e161a0e6e7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Textures/HardwoodDarkB 1.png using Guid(216869f7df5f5284d896e161a0e6e7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '320b75c54da5405a2ec41727993ecb31') in 0.014447 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Suburban Structure Kit/Textures/TileFloorB.png
-  artifactKey: Guid(636bb0245defc8b4d8e9e81dd9502b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Textures/TileFloorB.png using Guid(636bb0245defc8b4d8e9e81dd9502b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c944a9545528de0f2d8bcc825836a9') in 0.011361 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Suburban Structure Kit/Models/DoorCasing1.fbx
-  artifactKey: Guid(e0df387d86e574941a981196eaac3d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Models/DoorCasing1.fbx using Guid(e0df387d86e574941a981196eaac3d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67118e65a4e9d23ffdafc15d5148920') in 0.043178 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Suburban Structure Kit/Textures/TexturesCom_Metal_AluminumBrushed_1K_normal.tif
-  artifactKey: Guid(28b5dd72da49eeb4bb8ea44024613747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Textures/TexturesCom_Metal_AluminumBrushed_1K_normal.tif using Guid(28b5dd72da49eeb4bb8ea44024613747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd077dabc4dd4bc12afedb86076c65711') in 0.011810 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Suburban Structure Kit/Textures/StackedStone5.png
-  artifactKey: Guid(6d5c2582512cd1d46a0deb9c227cc8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Textures/StackedStone5.png using Guid(6d5c2582512cd1d46a0deb9c227cc8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359f6e1282f2a77859138bb543c1618e') in 0.012772 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Suburban Structure Kit/Textures/TexturesCom_Metal_SteelPlain_1K_albedo 1.tif
-  artifactKey: Guid(7b53eb4c41a1e774ea378e97550c6c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Textures/TexturesCom_Metal_SteelPlain_1K_albedo 1.tif using Guid(7b53eb4c41a1e774ea378e97550c6c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd6c7a37e6c82b42edd3ab99533ff02') in 0.011891 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Suburban Structure Kit/Models/EaveCap.fbx
-  artifactKey: Guid(680a2585edea9694288ce638f3604126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Models/EaveCap.fbx using Guid(680a2585edea9694288ce638f3604126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '501704b5af4b1780125dbc906a40969e') in 0.032903 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Suburban Structure Kit/Models/GarageDoorway.fbx
-  artifactKey: Guid(6d8c1ff6b430efd4bbf4ddbedc3311c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Models/GarageDoorway.fbx using Guid(6d8c1ff6b430efd4bbf4ddbedc3311c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b0f1cc51b42cd7ba089cebc5a9bb68d') in 0.037057 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Suburban Structure Kit/Models/StraightSidingTriangle2.fbx
-  artifactKey: Guid(a340b42c5506df849987bccac6e772db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Models/StraightSidingTriangle2.fbx using Guid(a340b42c5506df849987bccac6e772db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79f6cf6d5a383ded42b17c80a87f9910') in 0.042214 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Suburban Structure Kit/Textures/Flagstone 1.png
-  artifactKey: Guid(b56b6764906052b4faa592e918f6de43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Textures/Flagstone 1.png using Guid(b56b6764906052b4faa592e918f6de43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa0d8bd7555559e8dc8d4df49ea2eec9') in 0.014135 seconds 
+  path: Assets/Suburban Structure Kit/Materials/StackedStone1A 1.mat
+  artifactKey: Guid(faaf529487783f0498ca145d0093e2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/StackedStone1A 1.mat using Guid(faaf529487783f0498ca145d0093e2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50eb45dfb270d266f972fea01dfc6342') in 0.013846 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/Suburban Structure Kit/Models/ArchCorner.fbx
-  artifactKey: Guid(abeaa7afcdb0caa4ca98cc27248d2e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Models/ArchCorner.fbx using Guid(abeaa7afcdb0caa4ca98cc27248d2e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '094e4e13477272132f8be7ce46cd9edc') in 0.034942 seconds 
+  path: Assets/Suburban Structure Kit/Materials/Soffit.mat
+  artifactKey: Guid(2fdc5ad51f077944fad80dd6eae2bcfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/Soffit.mat using Guid(2fdc5ad51f077944fad80dd6eae2bcfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b3453f019eb33fd01eae06c225aa1ad') in 0.015794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Suburban Structure Kit/Materials/OutdoorTile2.mat
+  artifactKey: Guid(5b130951f02d15a48aa46bec0e635f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/OutdoorTile2.mat using Guid(5b130951f02d15a48aa46bec0e635f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a1a7691f3d173dae5a5776a31da0b7') in 0.015567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Suburban Structure Kit/Materials/WhiteCorner 1.mat
+  artifactKey: Guid(62d226770a1e3384e86438136097b7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/WhiteCorner 1.mat using Guid(62d226770a1e3384e86438136097b7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e35fe7ac933e3bff5d200a44cbdec0a7') in 0.013149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Suburban Structure Kit/Materials/TileFloorC1.mat
+  artifactKey: Guid(61074974bb31d6b48879975c982d1e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Materials/TileFloorC1.mat using Guid(61074974bb31d6b48879975c982d1e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1629c6dec9acd5dd11d5203d7db182f') in 0.014069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.399503 seconds.
+  path: Assets/Standard Assets (Mobile)/Textures/skyBox.tga
+  artifactKey: Guid(c7823349d54534cd1b3078b6bf95c848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets (Mobile)/Textures/skyBox.tga using Guid(c7823349d54534cd1b3078b6bf95c848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8111a07437d7938acf3b5be61ea44d2') in 0.038069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.687536 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES
+  artifactKey: Guid(2363638c7925c5a49a26547a0d160263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES using Guid(2363638c7925c5a49a26547a0d160263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1199a5841db851acfe13e2483b287844') in 0.005538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029874 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 1 BUMP.png
+  artifactKey: Guid(2ec046f91cf275c43be4fdd79579aaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 1 BUMP.png using Guid(2ec046f91cf275c43be4fdd79579aaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8702975b76d263bf4289881d751faf') in 0.056445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 8 Diffuse.png
+  artifactKey: Guid(e575d5b3d1c25f34ba82c45a482217e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 8 Diffuse.png using Guid(e575d5b3d1c25f34ba82c45a482217e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '615888d006b6621c1b5640e10cb3462a') in 0.017840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 8 BUMP.png
+  artifactKey: Guid(d3f9e1278710a684cbb0489e555f7ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 8 BUMP.png using Guid(d3f9e1278710a684cbb0489e555f7ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba4998ae94d871d61778d1ffb5b1f86') in 0.025308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 2 BUMP 1.png
+  artifactKey: Guid(5b8ae932581a1564d9fd7a1bc9de8ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 2 BUMP 1.png using Guid(5b8ae932581a1564d9fd7a1bc9de8ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8b43a61345b51b65ea672fa53e6a3a') in 0.028262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 10 FULL.png
+  artifactKey: Guid(94f233777b002d947853b5d13ddaff41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 10 FULL.png using Guid(94f233777b002d947853b5d13ddaff41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebbce95a450e6ed37f2323fe12b57ec9') in 0.026687 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Assets/Suburban Structure Kit/Textures/Woodgrain.png
-  artifactKey: Guid(81299e1e9acca574eb67e995209f0dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Textures/Woodgrain.png using Guid(81299e1e9acca574eb67e995209f0dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b043bb1470bfbdb7f08ac0cc44a0e512') in 0.012567 seconds 
+  path: Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 8 Full.png
+  artifactKey: Guid(2783de6a58c5bc1419c9fb5a565b87fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 8 Full.png using Guid(2783de6a58c5bc1419c9fb5a565b87fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33f5255f7860573261929d4600be60bc') in 0.028256 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Suburban Structure Kit/Models/EaveLength.fbx
-  artifactKey: Guid(5b9483ddda6031a4895db6ed5135870d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Models/EaveLength.fbx using Guid(5b9483ddda6031a4895db6ed5135870d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc661d99841fa72b17f37e49bd5c913e') in 0.038813 seconds 
+  Time since last request: 0.000020 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 10 FX.png
+  artifactKey: Guid(773a2f42cb1eff145a0a45dd4b2b30a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 10 FX.png using Guid(773a2f42cb1eff145a0a45dd4b2b30a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfcb24fd02fd3401ea9772fcffce3000') in 0.023591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 4 FULL.png
+  artifactKey: Guid(163cd57721b443b4e84446d7a0fd4e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 4 FULL.png using Guid(163cd57721b443b4e84446d7a0fd4e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b6da039526d88a47e0fbed222985b0') in 0.028397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 9 BUMP.png
+  artifactKey: Guid(8754dfb265e61f94593c0bfd2af8d7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 9 BUMP.png using Guid(8754dfb265e61f94593c0bfd2af8d7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a638a7e13cdc7d828986e9c075e724d') in 0.026368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 4 DIFFUSE.png
+  artifactKey: Guid(55bace0cb33928645a2c4ecee20dcbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 4 DIFFUSE.png using Guid(55bace0cb33928645a2c4ecee20dcbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df12280475f3d7c2c9b778962f737a0') in 0.014853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 9 FULL.png
+  artifactKey: Guid(fb614c90f1f626843abb5fdcff36f852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 9 FULL.png using Guid(fb614c90f1f626843abb5fdcff36f852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b485bae9a9e028f327e92fa89eb450') in 0.014816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 10 BUMP.png
+  artifactKey: Guid(6c61a998048bc144dadc95aa0d8c914b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 10 BUMP.png using Guid(6c61a998048bc144dadc95aa0d8c914b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb421bec649af98d5809aa5513ab300a') in 0.014814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 7 DIFFUSE.png
+  artifactKey: Guid(efd2d8da68302b7498ef9fa1fcd57e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 7 DIFFUSE.png using Guid(efd2d8da68302b7498ef9fa1fcd57e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39405a0b2312c8205b62957880301b5a') in 0.013157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 1 FULL.png
+  artifactKey: Guid(2d544b35e6710394da2fdd1bc68d8320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 1 FULL.png using Guid(2d544b35e6710394da2fdd1bc68d8320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e535a50792514530913b7d9ea66d5222') in 0.015259 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000026 seconds.
-  path: Assets/Suburban Structure Kit/Textures/GreyTiles 1.png
-  artifactKey: Guid(ce0aef8771bf1c648a0b3c14e889523b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Textures/GreyTiles 1.png using Guid(ce0aef8771bf1c648a0b3c14e889523b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac36475757c0293af168152a0084a2d') in 0.010733 seconds 
+  path: Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 3 BUMP.png
+  artifactKey: Guid(e56d2c50404b33f4798743e5d52a9065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 3 BUMP.png using Guid(e56d2c50404b33f4798743e5d52a9065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f90e20c47fe684d86e1bdb88db014287') in 0.012430 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Assets/Suburban Structure Kit/Textures/Flagstone.png
-  artifactKey: Guid(6247d2fcf6288354abc3346f31cc5d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Textures/Flagstone.png using Guid(6247d2fcf6288354abc3346f31cc5d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add5fea79bab9b908b05aaaad13926ff') in 0.011676 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Suburban Structure Kit/Models/RoofVent1.fbx
-  artifactKey: Guid(2482698b7a2c9874b9d4c2e91ae7b9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Models/RoofVent1.fbx using Guid(2482698b7a2c9874b9d4c2e91ae7b9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f0b54b37de7bf9051149eb21a5d6c4') in 0.047261 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Suburban Structure Kit/Textures/StackedStone4.png
-  artifactKey: Guid(d20642c493d6f9745b1155962125bbfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Textures/StackedStone4.png using Guid(d20642c493d6f9745b1155962125bbfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b8c07477f219c6bc8db130aa705400f') in 0.014077 seconds 
+  path: Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 1 FX 1.png
+  artifactKey: Guid(6f50bfbb9378a914495f25b8dddd46cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 1 FX 1.png using Guid(6f50bfbb9378a914495f25b8dddd46cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041cba92b33f2e8b08c4c35f0a3c23f6') in 0.014004 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/Suburban Structure Kit/Textures/Concrete.png
-  artifactKey: Guid(b1e17b3de59eb6e46a6e84a8614d3856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Textures/Concrete.png using Guid(b1e17b3de59eb6e46a6e84a8614d3856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aafe779819e977c0e17ad6ccc988e37') in 0.015662 seconds 
+  path: Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 5 FX.png
+  artifactKey: Guid(8a76639040b3dc345b290acf0d4b54dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 5 FX.png using Guid(8a76639040b3dc345b290acf0d4b54dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ab71b988f7c0725830b7546f42ca02') in 0.015496 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Suburban Structure Kit/Textures/FineWood4.png
-  artifactKey: Guid(3ae815f572ccdbe44a93d4f0b0bde292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Textures/FineWood4.png using Guid(3ae815f572ccdbe44a93d4f0b0bde292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd1f222bdd17a038bb11154e668448d3') in 0.010349 seconds 
+  Time since last request: 0.000022 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 3 FULL.png
+  artifactKey: Guid(d48be122d2da1404da2f2b6cdfb8fbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 3 FULL.png using Guid(d48be122d2da1404da2f2b6cdfb8fbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a395055106fe396e78512d51383d384') in 0.011950 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Suburban Structure Kit/Textures/TileFloorC.png
-  artifactKey: Guid(4c7c517645ee0ba4aba2ec5c5281c4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Textures/TileFloorC.png using Guid(4c7c517645ee0ba4aba2ec5c5281c4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44f39ab1d451cd23106e7b9fc9ce4e3') in 0.012421 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Suburban Structure Kit/Models/FloorTransitionStrip.fbx
-  artifactKey: Guid(33fbc137db2b14a4e971ad23c5448053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Models/FloorTransitionStrip.fbx using Guid(33fbc137db2b14a4e971ad23c5448053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa68d987ef5de11ffacb12e863499188') in 0.020982 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/Suburban Structure Kit/Textures/BlackShingles.png
-  artifactKey: Guid(ad69b9cd23d685243a8391a84e7dd4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Textures/BlackShingles.png using Guid(ad69b9cd23d685243a8391a84e7dd4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a66db7cad04a62e973a26246f668054') in 0.010310 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Suburban Structure Kit/Models/DoorwayStandard.fbx
-  artifactKey: Guid(254519caa421ce54496b419125078706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Models/DoorwayStandard.fbx using Guid(254519caa421ce54496b419125078706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1726366023bc09b111132eb390f024c7') in 0.046306 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Suburban Structure Kit/Textures/BrownShingles 1.png
-  artifactKey: Guid(ee61802007dd26c4990d8ca21674b5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Textures/BrownShingles 1.png using Guid(ee61802007dd26c4990d8ca21674b5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0813aa3df22a1117686fa587c3fabfbe') in 0.011985 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Suburban Structure Kit/Textures/ventedSoffit 1.png
-  artifactKey: Guid(aa455b53568bbd84e88b484de02612a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Textures/ventedSoffit 1.png using Guid(aa455b53568bbd84e88b484de02612a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a391ff519d62dc0c8b680c90622b0288') in 0.012222 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Suburban Structure Kit/Textures/TileNormal.png
-  artifactKey: Guid(dc33e311a1feb104c97f99582ef4c92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Textures/TileNormal.png using Guid(dc33e311a1feb104c97f99582ef4c92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a54b041dccac294580bd73e68db165b') in 0.015772 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Suburban Structure Kit/Models/EaveDownpipe.fbx
-  artifactKey: Guid(53f0e77d86d3e7240ac8cabc7adbfd3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Models/EaveDownpipe.fbx using Guid(53f0e77d86d3e7240ac8cabc7adbfd3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f1cab21875d1c4688d727730074edb') in 0.036418 seconds 
+  Time since last request: 0.000024 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 5 BUMP.png
+  artifactKey: Guid(1202bcfaaab6aa649883b97cf07c26b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 5 BUMP.png using Guid(1202bcfaaab6aa649883b97cf07c26b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6accb1aaaaaf8a316ffd9557260d8fed') in 0.013919 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/Suburban Structure Kit/Textures/DarkHardwood.png
-  artifactKey: Guid(623f8b1d096cc9b45a8190fc65853513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Textures/DarkHardwood.png using Guid(623f8b1d096cc9b45a8190fc65853513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f601b59b3784545b72a703c76c50aa') in 0.014106 seconds 
+  path: Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 5 FULL.png
+  artifactKey: Guid(c7c7eea5a311e1a46946112d2bb7e09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 5 FULL.png using Guid(c7c7eea5a311e1a46946112d2bb7e09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded5a26a1fed2232d4cb87c8a04b97d9') in 0.014685 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Suburban Structure Kit/Textures/DarkHardwood 1.png
-  artifactKey: Guid(958ee775acaeeae40ae1ecbb57528d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Textures/DarkHardwood 1.png using Guid(958ee775acaeeae40ae1ecbb57528d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db20f4e20d83410b0573cc063df609c') in 0.011130 seconds 
+  Time since last request: 0.000019 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 7 FULL.png
+  artifactKey: Guid(6683f11f44ac44b4199d5f65d35309e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 7 FULL.png using Guid(6683f11f44ac44b4199d5f65d35309e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d522529559688b385d5b524f652872f') in 0.013233 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Suburban Structure Kit/Textures/LightHardwood.png
-  artifactKey: Guid(f18b3fd95bb825345be403bb0eb314cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Textures/LightHardwood.png using Guid(f18b3fd95bb825345be403bb0eb314cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f7053cba009e7e851c7ddc924fc2bfd') in 0.011729 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.607374 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/3x3Corner.prefab
-  artifactKey: Guid(cb79d14aa2afa964b973c6d8cd7c3e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/3x3Corner.prefab using Guid(cb79d14aa2afa964b973c6d8cd7c3e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '584ec4590f837eb9fe4659a49df015d7') in 0.018189 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/EaveCap.prefab
-  artifactKey: Guid(d952aee7ac2b8f64abc1d6d97e87a4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/EaveCap.prefab using Guid(d952aee7ac2b8f64abc1d6d97e87a4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40141401a083adf06223178d7bbb581') in 0.013562 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/Roof1.prefab
-  artifactKey: Guid(f26e5c1467e77a14bbf44fc6b79eb5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/Roof1.prefab using Guid(f26e5c1467e77a14bbf44fc6b79eb5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b748c1bb1c242be50923fbd940cc27') in 0.025058 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/FloorTransitionStrip.prefab
-  artifactKey: Guid(3b6ced7c1459a0a4f9522257dc9a6514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/FloorTransitionStrip.prefab using Guid(3b6ced7c1459a0a4f9522257dc9a6514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a44ce9c814f201b8b190546882c4cc') in 0.014012 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DomeLight.prefab
-  artifactKey: Guid(cf88c4db128f2074b99773958bc42d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DomeLight.prefab using Guid(cf88c4db128f2074b99773958bc42d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d1549d45c679d45be61c3aad5feea5') in 0.022277 seconds 
+  Time since last request: 0.000016 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 2 BUMP.png
+  artifactKey: Guid(cce35b1758679b94bb653fc62258e3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 2 BUMP.png using Guid(cce35b1758679b94bb653fc62258e3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93bab82c39bf39359a4e71763da9e4f5') in 0.014614 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/Deadbolt.prefab
-  artifactKey: Guid(351b91bb82ad38144bd91667ee13368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/Deadbolt.prefab using Guid(351b91bb82ad38144bd91667ee13368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cffdcc7eb0e755605c912949468107c') in 0.021480 seconds 
+  path: Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 6 FULL.png
+  artifactKey: Guid(1a0bad997e11613438d9166fd681ccb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 6 FULL.png using Guid(1a0bad997e11613438d9166fd681ccb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1abd010fde42269ac3531cedc3dfe4f') in 0.013591 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/InteriorStairs.prefab
-  artifactKey: Guid(38ad181b22dd60540b6f7ed6a2bac674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/InteriorStairs.prefab using Guid(38ad181b22dd60540b6f7ed6a2bac674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb9de314209a095948e811547b288be0') in 0.016379 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/HandrailBracket.prefab
-  artifactKey: Guid(510632f4062158f4296245772efa2781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/HandrailBracket.prefab using Guid(510632f4062158f4296245772efa2781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ac741b14ab155c768076e23c3b8a0d') in 0.019556 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/InteriorDoorandBox.prefab
-  artifactKey: Guid(fa078ae79bb9e8547a3469bb7f0a641e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/InteriorDoorandBox.prefab using Guid(fa078ae79bb9e8547a3469bb7f0a641e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d11362bd74f7ea9908fd225c7497fe') in 0.025714 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/ISCorner.prefab
-  artifactKey: Guid(a314b38f55fbd9d4ea10f482866648c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/ISCorner.prefab using Guid(a314b38f55fbd9d4ea10f482866648c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e8f68a4d281e8f181b559cf2de2735') in 0.012792 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/JBlockRect1.prefab
-  artifactKey: Guid(76e632aad04aafa4f88a4a6f4e6243cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/JBlockRect1.prefab using Guid(76e632aad04aafa4f88a4a6f4e6243cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7938e37cbf44395dd387910af836ab63') in 0.014152 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/WindowCasing1.prefab
-  artifactKey: Guid(ddb4b1c2975a46242af82b6e0b644fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/WindowCasing1.prefab using Guid(ddb4b1c2975a46242af82b6e0b644fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81188f2b7522071fbd2d83260fc0a13d') in 0.014102 seconds 
+  Time since last request: 0.000021 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 1 DIFFUSE.png
+  artifactKey: Guid(bc02722760389c04c8149d816700030a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 1 DIFFUSE.png using Guid(bc02722760389c04c8149d816700030a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd13103089880b8517da4809ca141d75c') in 0.013876 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/AllPlane.prefab
-  artifactKey: Guid(c369b00273a11a446bb442c42e4fb5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/AllPlane.prefab using Guid(c369b00273a11a446bb442c42e4fb5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '109532ac0e637761a871125c66b8ea6c') in 0.014091 seconds 
+  path: Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 4 BUMP.png
+  artifactKey: Guid(441417ced452eff4ab2faea3c286ea46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 4 BUMP.png using Guid(441417ced452eff4ab2faea3c286ea46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80f146ba9e610b65aa566197cd9e3f21') in 0.017678 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/EaveDownpipe.prefab
-  artifactKey: Guid(8f667bcd330701941a386bfb15be81d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/EaveDownpipe.prefab using Guid(8f667bcd330701941a386bfb15be81d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a758aecfa101b03960ff5503451ad6') in 0.012214 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/Baseblock.prefab
-  artifactKey: Guid(cac0a8b97af83a04f8827c346fea951f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/Baseblock.prefab using Guid(cac0a8b97af83a04f8827c346fea951f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e1492b632bc14d19ee83aa89457c6e') in 0.010920 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/GarageDoorGlass.prefab
-  artifactKey: Guid(a1d3445b5ef2c104fa00c4e78b2c12db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/GarageDoorGlass.prefab using Guid(a1d3445b5ef2c104fa00c4e78b2c12db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d9c529b15ea9ab10c420febb106428') in 0.015947 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/EaveLength (2).prefab
-  artifactKey: Guid(8cf6f506d814c9944adaf4112d9e94eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/EaveLength (2).prefab using Guid(8cf6f506d814c9944adaf4112d9e94eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ece95ebec71d8c3087a84fc59f69868') in 0.014581 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/Door6PanelSlab.prefab
-  artifactKey: Guid(611c420aab0ee8843ae1a8df0eb4cd5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/Door6PanelSlab.prefab using Guid(611c420aab0ee8843ae1a8df0eb4cd5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9193116e0639a7dec5d755f6b1d1213f') in 0.015191 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/RoofVent1.prefab
-  artifactKey: Guid(96ff0037a4b503f40948fb832adc5ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/RoofVent1.prefab using Guid(96ff0037a4b503f40948fb832adc5ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b42d0162d8848b733fcfb405c7c4f1a') in 0.013062 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/RoundSidingBlockPillar.prefab
-  artifactKey: Guid(4922e674e7a01db44934840673249d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/RoundSidingBlockPillar.prefab using Guid(4922e674e7a01db44934840673249d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9b406ac6bd56c78341c9c6bc6324400') in 0.018047 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/WindowDoubleGrilledSlider.prefab
-  artifactKey: Guid(6716fc24fc690d34d9645e4e83e66717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/WindowDoubleGrilledSlider.prefab using Guid(6716fc24fc690d34d9645e4e83e66717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f159f3800777962df6ef3b41de02ffc') in 0.013500 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/IndoorTriangle.prefab
-  artifactKey: Guid(e21c66824049d504aa4e73a146f2bf34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/IndoorTriangle.prefab using Guid(e21c66824049d504aa4e73a146f2bf34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd43e2aca515315b6de461efd3dda1fb') in 0.011959 seconds 
+  Time since last request: 0.000023 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 9 DIFFUSE.png
+  artifactKey: Guid(a2982ab92b464cc45ac0d7176093b60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 9 DIFFUSE.png using Guid(a2982ab92b464cc45ac0d7176093b60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60751ef294ec12e444aee1b74a45ede9') in 0.010993 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000034 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/Dripedge.prefab
-  artifactKey: Guid(e3c6c54b2505abb409dc7d08aeb29c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/Dripedge.prefab using Guid(e3c6c54b2505abb409dc7d08aeb29c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1688b9b5b411c53485765090298138') in 0.012153 seconds 
+  path: Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 5 DIFFUSE.png
+  artifactKey: Guid(4b5b5eb5b0e951544bc2ffa276314d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 5 DIFFUSE.png using Guid(4b5b5eb5b0e951544bc2ffa276314d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0afb7ba0e33a082c5365a24e992701f7') in 0.013188 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/Doorway2LiteandHeader.prefab
-  artifactKey: Guid(b7c5317bac06228478447b273856f43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/Doorway2LiteandHeader.prefab using Guid(b7c5317bac06228478447b273856f43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc0da68b5d2a299ad342a98c579ada57') in 0.015041 seconds 
+  Time since last request: 0.000020 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 7 BUMP.png
+  artifactKey: Guid(d0bd3f13c143e944d8ea671fbbe36293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 7 BUMP.png using Guid(d0bd3f13c143e944d8ea671fbbe36293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cfc09660d395fa030cddf583489b0d9') in 0.014257 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DoorQuarterGlassSlab.prefab
-  artifactKey: Guid(0802041c946de5447a29144908983ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DoorQuarterGlassSlab.prefab using Guid(0802041c946de5447a29144908983ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b843e011174f5b7fa6287f94a4cbe580') in 0.015857 seconds 
+  Time since last request: 0.000016 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 3 FX.png
+  artifactKey: Guid(5fb50ac033e246e4fb03d53c1b33665d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 3 FX.png using Guid(5fb50ac033e246e4fb03d53c1b33665d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8c4dc0150a9efc9015780f2f41ff256') in 0.013312 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/SquarePillar.prefab
-  artifactKey: Guid(28b2ab3d98f891b4a879ffbdea7707af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/SquarePillar.prefab using Guid(28b2ab3d98f891b4a879ffbdea7707af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16de58334d4a93a5bfb1b67dd6961013') in 0.011947 seconds 
+  Time since last request: 0.000021 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 6 DIFFUSE.png
+  artifactKey: Guid(015c5fdecad7f404eafee48b327b7859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 6 DIFFUSE.png using Guid(015c5fdecad7f404eafee48b327b7859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0cc4626e2ae3ec192f82cc1f434d8c') in 0.013661 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/InteriorWallSingleWindow.prefab
-  artifactKey: Guid(d0066f555a799bd41a6853cfb16e746d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/InteriorWallSingleWindow.prefab using Guid(d0066f555a799bd41a6853cfb16e746d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e65e5c893cf67f792e2cfce0584c334') in 0.012978 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/StraightSidingTriangle2.prefab
-  artifactKey: Guid(48a0744c97b288c4397d01334ccf1c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/StraightSidingTriangle2.prefab using Guid(48a0744c97b288c4397d01334ccf1c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '526362b2f546355509568e2dacb8bf73') in 0.014694 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/GarageDoorway.prefab
-  artifactKey: Guid(f704066d94e118644b891c9680f420b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/GarageDoorway.prefab using Guid(f704066d94e118644b891c9680f420b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a2c9f0bee4f060673793e80727f1d6') in 0.013270 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DoorknobVictorian.prefab
-  artifactKey: Guid(adf5beccc1c80fe409e4d1931e039e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DoorknobVictorian.prefab using Guid(adf5beccc1c80fe409e4d1931e039e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '364446b4af880dce5a31adab48ebc589') in 0.014828 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/CedarTriangle.prefab
-  artifactKey: Guid(d76622e910fb79945a3375afffa6d274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/CedarTriangle.prefab using Guid(d76622e910fb79945a3375afffa6d274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f315a3d46e8f64da07af27400becd78d') in 0.016320 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/Doorbell.prefab
-  artifactKey: Guid(b16e166cba5fe6b448c44a4db247e8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/Doorbell.prefab using Guid(b16e166cba5fe6b448c44a4db247e8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32dc60c13791a0fb86221fb8951d519a') in 0.015600 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/CasingColonial.prefab
-  artifactKey: Guid(899d497d16a81e34eb745a1f2d94ef7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/CasingColonial.prefab using Guid(899d497d16a81e34eb745a1f2d94ef7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '926de4d805504273521a9384e7fe24eb') in 0.011414 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/Dripedgecorner.prefab
-  artifactKey: Guid(2d1f605ddcf18d94b95c24872d2ccbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/Dripedgecorner.prefab using Guid(2d1f605ddcf18d94b95c24872d2ccbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb14febdfeff401ab31c07de05ce3d2') in 0.013491 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/WindowDoubleCasing1.prefab
-  artifactKey: Guid(b0188e5bf91c9b540b9f1bcc550d3f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/WindowDoubleCasing1.prefab using Guid(b0188e5bf91c9b540b9f1bcc550d3f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0444203d5f61cc141875273bc6714915') in 0.012319 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DoorJamb.prefab
-  artifactKey: Guid(d23509ba8c6e53a4fb65f7cb0f7ee897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DoorJamb.prefab using Guid(d23509ba8c6e53a4fb65f7cb0f7ee897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0945d628e40eada8dd0dcba2fc2f108') in 0.013286 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DoorwayStandard.prefab
-  artifactKey: Guid(cc4e5b940511edc469dbc1c752cd4db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DoorwayStandard.prefab using Guid(cc4e5b940511edc469dbc1c752cd4db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06a3e3c7ba95589ad99b8a5125d3f9eb') in 0.011332 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/SquarePillar 1.prefab
-  artifactKey: Guid(829b7ba23226f524fa11e3ca5d571d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/SquarePillar 1.prefab using Guid(829b7ba23226f524fa11e3ca5d571d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23572144cb8a3b5d13d7d16fa43b5e7') in 0.018624 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DoorHalfGlassSliderSlab.prefab
-  artifactKey: Guid(f91d3b562ff87e44abc922e66595d6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DoorHalfGlassSliderSlab.prefab using Guid(f91d3b562ff87e44abc922e66595d6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5cc6a9a8551b80f4448868e7ceeb062') in 0.013335 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/SquareStraightPillar.prefab
-  artifactKey: Guid(6785a97c7d7672d448905467db8838aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/SquareStraightPillar.prefab using Guid(6785a97c7d7672d448905467db8838aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd54eb8ef648fcace9ebf09b3e857fd37') in 0.012562 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/ConcreteSlab.prefab
-  artifactKey: Guid(1a5fd182d9e440347b95d1b998ec1bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/ConcreteSlab.prefab using Guid(1a5fd182d9e440347b95d1b998ec1bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72797401a58a412106de4d59cfdd8252') in 0.013468 seconds 
+  path: Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 3 DIFFUSE.png
+  artifactKey: Guid(bfd7e4daaba1f4546ba63e5ed56c6367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 3 DIFFUSE.png using Guid(bfd7e4daaba1f4546ba63e5ed56c6367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2491a49f24311db35cff00f16bd2038f') in 0.016040 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000028 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/WindowDoubleSlider.prefab
-  artifactKey: Guid(ad89ff43b40605949ac051366240b8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/WindowDoubleSlider.prefab using Guid(ad89ff43b40605949ac051366240b8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c3ab1a922a655ea11305131d7267bc') in 0.013572 seconds 
+  path: Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 2 FULL.png
+  artifactKey: Guid(491af2901659f5242951a17aa6d6980f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 2 FULL.png using Guid(491af2901659f5242951a17aa6d6980f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd8aa8bb2055cfdc249b5263b9d6057') in 0.014042 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/JBlockSquare1.prefab
-  artifactKey: Guid(7f888ccc7827af241815998a7c1d8bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/JBlockSquare1.prefab using Guid(7f888ccc7827af241815998a7c1d8bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5bc9235c40c6f3e6af9aab01906676') in 0.015501 seconds 
+  Time since last request: 0.000018 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 9 FX.png
+  artifactKey: Guid(dddc42bb1f38b324397345d7a857c376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 9 FX.png using Guid(dddc42bb1f38b324397345d7a857c376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd287fec72ac20c203da9eaf319b9cfa') in 0.014160 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/CrownMoulding.prefab
-  artifactKey: Guid(3674916a7726a9d49982a7038ce38c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/CrownMoulding.prefab using Guid(3674916a7726a9d49982a7038ce38c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da794b6760b8d4557c28be7b20af29a') in 0.010948 seconds 
+  Time since last request: 0.000023 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 6 FX.png
+  artifactKey: Guid(fd5802d960f2c344bba76eed5f393531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 6 FX.png using Guid(fd5802d960f2c344bba76eed5f393531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b952898cb763095c9a78a5197b587292') in 0.014863 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/EntryThumbLatch1.prefab
-  artifactKey: Guid(3e112551083fc5d48baf580648ddb45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/EntryThumbLatch1.prefab using Guid(3e112551083fc5d48baf580648ddb45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c450993df3faec24e87d265f07f7aeff') in 0.014747 seconds 
+  Time since last request: 0.000023 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 8 FX.png
+  artifactKey: Guid(e465a1674cdd1794788ebe9139b23416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 8 FX.png using Guid(e465a1674cdd1794788ebe9139b23416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '380c99c1e18bb94862f64738518579ee') in 0.015001 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/InteriorStairsSingle.prefab
-  artifactKey: Guid(0c51fa29918878746b4633157a83e12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/InteriorStairsSingle.prefab using Guid(0c51fa29918878746b4633157a83e12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb62eac76901bde3ff26f0f7ece1a6e3') in 0.014064 seconds 
+  Time since last request: 0.000019 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 10 DIFFUSE.png
+  artifactKey: Guid(aeaa671a095f1e546a4d4306a0412922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 10 DIFFUSE.png using Guid(aeaa671a095f1e546a4d4306a0412922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f68b402b181d5d0d65bfb97eca16140') in 0.014344 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/Handrail.prefab
-  artifactKey: Guid(14e59ad51288a9a4282be236d0512cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/Handrail.prefab using Guid(14e59ad51288a9a4282be236d0512cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83911d89f42e1b18d5040a8854036e10') in 0.013104 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/WindowFixedDouble.prefab
-  artifactKey: Guid(20fa9c8b2032a5b40a655192d73225af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/WindowFixedDouble.prefab using Guid(20fa9c8b2032a5b40a655192d73225af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd6a377539f1fded6c9add2b3880520c') in 0.012218 seconds 
+  Time since last request: 0.000022 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 7 FX.png
+  artifactKey: Guid(019d69b01105ec149ad598601da12c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 7 FX.png using Guid(019d69b01105ec149ad598601da12c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d9ad87a96230cfd68bfc4ed8f762d92') in 0.013299 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000033 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/StackedStoneWall.prefab
-  artifactKey: Guid(e49c645f6401b10428117b35d9f22926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/StackedStoneWall.prefab using Guid(e49c645f6401b10428117b35d9f22926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff23316fd26b09f7bfcc2adbd94d62c') in 0.016699 seconds 
+  path: Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 2 DIFFUSE.png
+  artifactKey: Guid(d894efafc49af2444864b4c5240a10da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 2 DIFFUSE.png using Guid(d894efafc49af2444864b4c5240a10da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea38ae6cfa5c02d7a3f4c46f8fc12152') in 0.014019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 4 FX.png
+  artifactKey: Guid(38ea2cbbda268594e813de0f22f1e31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 4 FX.png using Guid(38ea2cbbda268594e813de0f22f1e31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd95d455112229912df847145ba7c95c2') in 0.019012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 6 BUMP.png
+  artifactKey: Guid(ba5ca54cac9260646839947d300d1182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/STONE/TEXTURES/Stone 6 BUMP.png using Guid(ba5ca54cac9260646839947d300d1182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d96aa965920254f6126e458087b01cc') in 0.015555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.979650 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES
+  artifactKey: Guid(dd166c578d2f5b140b3b7006d3f0aeca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES using Guid(dd166c578d2f5b140b3b7006d3f0aeca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf8f9d63ae2ebffcdbb9cff9ee917f3') in 0.001442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.057291 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 01 BUMP.png
+  artifactKey: Guid(5ed1da4c59e61b64aa28a71fe6039df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 01 BUMP.png using Guid(5ed1da4c59e61b64aa28a71fe6039df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bfcdf2bb57e77ff86e39f5cd7473868') in 0.018272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 08 DIFFUSE.png
+  artifactKey: Guid(361937fad0d06f34caa058f1cbc0a632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 08 DIFFUSE.png using Guid(361937fad0d06f34caa058f1cbc0a632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f773ccec07db3b0609e10a3b5885241') in 0.023606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 04 DIFFUSE.png
+  artifactKey: Guid(ebf177f8e32628b4a8f5001adcb6fcce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 04 DIFFUSE.png using Guid(ebf177f8e32628b4a8f5001adcb6fcce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4207cd25de3fe9343814c7f02391cfb') in 0.024713 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/WindowFixedSingle.prefab
-  artifactKey: Guid(052c7f1b36eca9041a3649d70f4a8ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/WindowFixedSingle.prefab using Guid(052c7f1b36eca9041a3649d70f4a8ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8ad1301964e0428b92136cbb0d87d8d') in 0.011671 seconds 
+  path: Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 01 FX.png
+  artifactKey: Guid(f29f9da199e96da49ba7717511871f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 01 FX.png using Guid(f29f9da199e96da49ba7717511871f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a59fe37f9ecd66016946c0e766d9188e') in 0.013479 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DoorSweep1.prefab
-  artifactKey: Guid(6cc5ec3cd5674664699934df18f4ee5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DoorSweep1.prefab using Guid(6cc5ec3cd5674664699934df18f4ee5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b726dee7ac531bd722b8d9587e8bc6') in 0.016761 seconds 
+  Time since last request: 0.000019 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 08 FULL.png
+  artifactKey: Guid(482a33b0578eb6c4ba7277b73987c4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 08 FULL.png using Guid(482a33b0578eb6c4ba7277b73987c4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '569af4356bdb88707f8ee397349a5ead') in 0.023219 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/FloorOutdoor.prefab
-  artifactKey: Guid(ab0c49086dad75046ac03fb886f5d22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/FloorOutdoor.prefab using Guid(ab0c49086dad75046ac03fb886f5d22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e4b42f57ede82abb5a274885c7f1d2') in 0.012538 seconds 
+  path: Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 10 FULL.png
+  artifactKey: Guid(76ce21b5251915747abb9937a1e0678b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 10 FULL.png using Guid(76ce21b5251915747abb9937a1e0678b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c324187fc742a449142d778259a926') in 0.013678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 07 FX.png
+  artifactKey: Guid(f71126580ba817743b8657b060750a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 07 FX.png using Guid(f71126580ba817743b8657b060750a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8946e78bf81d6719209815bb20cdf433') in 0.014085 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/EaveDownpipe45.prefab
-  artifactKey: Guid(47da2000a85029b41a21df4448854478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/EaveDownpipe45.prefab using Guid(47da2000a85029b41a21df4448854478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f7b8b6eb14c2fd1736ddb72dce8723') in 0.013940 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DeadboltPlate.prefab
-  artifactKey: Guid(cd9a16dc025854e478710f5f6208cb46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DeadboltPlate.prefab using Guid(cd9a16dc025854e478710f5f6208cb46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd393b4f83d7845d7b8fac4bac519186') in 0.014552 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/CoveSiding.prefab
-  artifactKey: Guid(9cd98c257de75524d85e627779fd2b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/CoveSiding.prefab using Guid(9cd98c257de75524d85e627779fd2b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8f19e71b7833a55c7da1c4d35b8c86') in 0.012296 seconds 
+  path: Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 09 FULL.png
+  artifactKey: Guid(a57f5a2b4b5afca448117cac29830cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 09 FULL.png using Guid(a57f5a2b4b5afca448117cac29830cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '405971406ff29ee43b74d28e47931905') in 0.014119 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000024 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/WindowGrilledSlider.prefab
-  artifactKey: Guid(a5b17e59e720cc248bf072b8373907fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/WindowGrilledSlider.prefab using Guid(a5b17e59e720cc248bf072b8373907fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce84dd07a3367f5b47b9a338ef59f2b') in 0.011444 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DoorknobGeorgian.prefab
-  artifactKey: Guid(2db173d62b6306d4393ec30c9c7b1c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DoorknobGeorgian.prefab using Guid(2db173d62b6306d4393ec30c9c7b1c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '019ed729b7e0abfc56fc0dc8c99815c0') in 0.015982 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/GarageDoorSquareGrilled.prefab
-  artifactKey: Guid(d9cf36228a0dbdc41b53467d5621adf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/GarageDoorSquareGrilled.prefab using Guid(d9cf36228a0dbdc41b53467d5621adf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca2dbeb3c3ffa0397fb1e12b43a4dad') in 0.016494 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/BaseboardColonialOScorner.prefab
-  artifactKey: Guid(cddd7093b2c278d4d8943b5929455d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/BaseboardColonialOScorner.prefab using Guid(cddd7093b2c278d4d8943b5929455d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b504d70446183bcc77277c8f97cefe') in 0.012327 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/WindowSingleSlider.prefab
-  artifactKey: Guid(cff5b07fa93c434429cd753738e9aed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/WindowSingleSlider.prefab using Guid(cff5b07fa93c434429cd753738e9aed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee764642a7fd4641231944517df99b2') in 0.012729 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DoorHalfGlassPanelSlab.prefab
-  artifactKey: Guid(796f570d6359fe24f8fb00d7c1f742c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DoorHalfGlassPanelSlab.prefab using Guid(796f570d6359fe24f8fb00d7c1f742c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb04768066fe648a57d87b0e7c45be6') in 0.017023 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/StraightSiding.prefab
-  artifactKey: Guid(1ace3813515042845bc4ec9ca1e51f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/StraightSiding.prefab using Guid(1ace3813515042845bc4ec9ca1e51f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e13f096aab70f0a62d07e12e7b3f1e31') in 0.011840 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/InteriorStairsHalf.prefab
-  artifactKey: Guid(3d679d27e85df4146b570cb7d0c3b4ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/InteriorStairsHalf.prefab using Guid(3d679d27e85df4146b570cb7d0c3b4ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4eb501b60ec956ffa2e0274bd027e23') in 0.016515 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/CoveSidingTriangle1.prefab
-  artifactKey: Guid(a30a3e4682dba414681eb28e4de37c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/CoveSidingTriangle1.prefab using Guid(a30a3e4682dba414681eb28e4de37c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb51d4568ce2596051f364206735261') in 0.013983 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/BaseboardColonial.prefab
-  artifactKey: Guid(004cc6a640d4fb04a9aa6d6056b8a85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/BaseboardColonial.prefab using Guid(004cc6a640d4fb04a9aa6d6056b8a85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec922e271a59fc316246c8193f15a32') in 0.013626 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/CornerBead.prefab
-  artifactKey: Guid(b4137ce641c4c4c4c8527a12afddf0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/CornerBead.prefab using Guid(b4137ce641c4c4c4c8527a12afddf0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '364f6966185f3f491eb9364c18a3f59b') in 0.009637 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/Overhang.prefab
-  artifactKey: Guid(9a7a664181341384bbb99e15a73ec114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/Overhang.prefab using Guid(9a7a664181341384bbb99e15a73ec114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3694644ddb8e8f897f3130c98b26656f') in 0.015285 seconds 
+  path: Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 06 FX.png
+  artifactKey: Guid(49d0b77d4403f0d4bb35b1dee4da0f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 06 FX.png using Guid(49d0b77d4403f0d4bb35b1dee4da0f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d856318bf9a4e444732b06bbc75b09') in 0.014064 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/BostonHeader.prefab
-  artifactKey: Guid(a9e7be6eb0bedd9459c64a7b2d1b63d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/BostonHeader.prefab using Guid(a9e7be6eb0bedd9459c64a7b2d1b63d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64198d0c5fae165abc9d3c18fddb7b9') in 0.012812 seconds 
+  path: Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 06 DIFFUSE.png
+  artifactKey: Guid(ae3f5cdfd75ca9c48a37716b6819f12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 06 DIFFUSE.png using Guid(ae3f5cdfd75ca9c48a37716b6819f12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8d7904d5c4e058d226fc204ca58598b') in 0.012271 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/StraightSidingTriangle3.prefab
-  artifactKey: Guid(f0bf5566da98d824d9c5c0eb00319cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/StraightSidingTriangle3.prefab using Guid(f0bf5566da98d824d9c5c0eb00319cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239c93cede9d2b8a6e4d847ef7d0feaa') in 0.009399 seconds 
+  path: Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 03 DIFFUSE.png
+  artifactKey: Guid(b3503852733f0a648ba0d9777b348396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 03 DIFFUSE.png using Guid(b3503852733f0a648ba0d9777b348396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd53e0046033dbf3d0d537fcd7f08534') in 0.014776 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/StraightSidingTriangle1.prefab
-  artifactKey: Guid(311e7bbbec70278408b39cea1ed46650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/StraightSidingTriangle1.prefab using Guid(311e7bbbec70278408b39cea1ed46650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399300e05a930ee8120e97a7ea76810b') in 0.012863 seconds 
+  Time since last request: 0.000019 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 06 FULL.png
+  artifactKey: Guid(638395359935be847aaf498fc956a7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 06 FULL.png using Guid(638395359935be847aaf498fc956a7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '230c73e9d6c9aed49cdced279c748af9') in 0.010520 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/ArchCorner.prefab
-  artifactKey: Guid(fc1ef2f0fa59c3d4dbd8e54b9dda70b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/ArchCorner.prefab using Guid(fc1ef2f0fa59c3d4dbd8e54b9dda70b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b19e4d5ab73365144fe163306a53344') in 0.013257 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DoorCasing1.prefab
-  artifactKey: Guid(c2a4b594ffd29fd43b38f1358d47e828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DoorCasing1.prefab using Guid(c2a4b594ffd29fd43b38f1358d47e828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1801c1e3cd91eb281502b0f3fd36839') in 0.012809 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.456670 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/FullPrefabs/GarageDetatchedVer1.prefab
-  artifactKey: Guid(20dd690069cf4c647ac68f85a75d3694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/FullPrefabs/GarageDetatchedVer1.prefab using Guid(20dd690069cf4c647ac68f85a75d3694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba08ca968a6843de2333f61d657ab07') in 0.086684 seconds 
+  Time since last request: 0.000019 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 02 FX.png
+  artifactKey: Guid(973e2e1af59c5e34ea521e79d772fe4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 02 FX.png using Guid(973e2e1af59c5e34ea521e79d772fe4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f4e887cc4f743ef19ccb230575f7874') in 0.010974 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/FullPrefabs/SuburbanHouseVer1.prefab
-  artifactKey: Guid(d18575db84348924490b1cafa3686243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/FullPrefabs/SuburbanHouseVer1.prefab using Guid(d18575db84348924490b1cafa3686243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feadfd0116d43a4b09ec695202f25b2f') in 0.171100 seconds 
+  path: Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 07 DIFFUSE.png
+  artifactKey: Guid(b6a236e6a9c63cd4095d8c4c7f798b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 07 DIFFUSE.png using Guid(b6a236e6a9c63cd4095d8c4c7f798b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431b991620e7773e2773964c65f1a5c1') in 0.012736 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/FullPrefabs/SuburbanHouseVer3B.prefab
-  artifactKey: Guid(e57a10b1c9016b742a3084e52be77b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/FullPrefabs/SuburbanHouseVer3B.prefab using Guid(e57a10b1c9016b742a3084e52be77b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef993a3c730394330a9c6f77f19338c9') in 0.141246 seconds 
+  Time since last request: 0.000025 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 03 FX.png
+  artifactKey: Guid(fbbfc79fe1fe80843a4080202c3842e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 03 FX.png using Guid(fbbfc79fe1fe80843a4080202c3842e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e910cf1d2a6a3313af37d38d7b678667') in 0.012756 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/FullPrefabs/SuburbanHouseVer2.prefab
-  artifactKey: Guid(fe44196c5e4e1444db4df3069ca7c43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/FullPrefabs/SuburbanHouseVer2.prefab using Guid(fe44196c5e4e1444db4df3069ca7c43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecdba169f656daf1dadc4a8aa05d9ee0') in 0.214410 seconds 
+  Time since last request: 0.000017 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 07 BUMP.png
+  artifactKey: Guid(5bf116e9da1282d4da66cf469a1bae8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 07 BUMP.png using Guid(5bf116e9da1282d4da66cf469a1bae8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac193ed6835d801a9d0f733fa1e3dd0e') in 0.016101 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Suburban Structure Kit/Prefabs/FullPrefabs/SuburbanHouseVer3A.prefab
-  artifactKey: Guid(914761b82962bf0468c45833469bb498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suburban Structure Kit/Prefabs/FullPrefabs/SuburbanHouseVer3A.prefab using Guid(914761b82962bf0468c45833469bb498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af72ca8fbf8c37c736aec6fcc570c260') in 0.146065 seconds 
+  Time since last request: 0.000021 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 10 DIFFUSE.png
+  artifactKey: Guid(4bfb0fc887a198b4fa668001fd85841f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 10 DIFFUSE.png using Guid(4bfb0fc887a198b4fa668001fd85841f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75361334ebf363274152129f665cb216') in 0.011264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 09 FX.png
+  artifactKey: Guid(51b3e9272ce6f4e4088a2e421ba87275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 09 FX.png using Guid(51b3e9272ce6f4e4088a2e421ba87275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db8548cc87a94bbfb5204bc08d89976') in 0.013274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 08 BUMP.png
+  artifactKey: Guid(597c3d8146f49a2469b88b69cae265d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 08 BUMP.png using Guid(597c3d8146f49a2469b88b69cae265d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f107f891de1b9a9d1140993a0900151') in 0.015038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 10 BUMP.png
+  artifactKey: Guid(30227b3ab8b9bf547ba3d1cb55796088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 10 BUMP.png using Guid(30227b3ab8b9bf547ba3d1cb55796088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4833138aa295cf44b4856f045302cf70') in 0.013134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 05 DIFFUSE.png
+  artifactKey: Guid(2849159cce642ca45bd3b0b18ff7901c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 05 DIFFUSE.png using Guid(2849159cce642ca45bd3b0b18ff7901c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a1f9f32925ed8d8acbe9c1fd4fa4ba') in 0.014546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 10 FX.png
+  artifactKey: Guid(c88c46680b7751e439de743c9b43833f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 10 FX.png using Guid(c88c46680b7751e439de743c9b43833f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f982ba78397d217a48cc5c7647b92aa') in 0.010420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 01 DIFFUSE.png
+  artifactKey: Guid(84a9fee59b4bc7046a7d14b1562f9174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 01 DIFFUSE.png using Guid(84a9fee59b4bc7046a7d14b1562f9174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b66a29688975ab9031efb1d58149a7f8') in 0.012348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 02 BUMP.png
+  artifactKey: Guid(fe20c16053f312d4e938635f0252b9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 02 BUMP.png using Guid(fe20c16053f312d4e938635f0252b9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e61ec53c696dc252a40ca4a9558f17') in 0.014391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 09 DIFFUSE.png
+  artifactKey: Guid(952787d684c9f5c4eae5b31f5f78bb0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 09 DIFFUSE.png using Guid(952787d684c9f5c4eae5b31f5f78bb0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc60c223374a65338aeb532119aadb5d') in 0.014196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 01 FULL.png
+  artifactKey: Guid(d812ab8fccc10134a8432397ffe8429c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 01 FULL.png using Guid(d812ab8fccc10134a8432397ffe8429c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '258fa488c5bade2de1f0c42a55498ce8') in 0.010961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 02 FULL.png
+  artifactKey: Guid(e84f481baaae0074c8a61e1e3e9fa6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 02 FULL.png using Guid(e84f481baaae0074c8a61e1e3e9fa6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ab59fc47824a019b6618691530743a') in 0.014420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 03 FULL.png
+  artifactKey: Guid(a1a7f3da567ec184c8b4ae8f3da02fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 03 FULL.png using Guid(a1a7f3da567ec184c8b4ae8f3da02fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4c9096fe334efaed9a7be7d45e8a80') in 0.012841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 04 FULL.png
+  artifactKey: Guid(099fe9d7d55aecb439272d9796fdcc23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 04 FULL.png using Guid(099fe9d7d55aecb439272d9796fdcc23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d815ff424ec7aa87735797452467d4') in 0.014693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 09 BUMP.png
+  artifactKey: Guid(2af89b4a41ee3ac4ca4ffa93312ebc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 09 BUMP.png using Guid(2af89b4a41ee3ac4ca4ffa93312ebc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '106670208d6108789dcccb8e955222a1') in 0.010853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 03 BUMP.png
+  artifactKey: Guid(e075641988da0284aa2b9727eef18eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 03 BUMP.png using Guid(e075641988da0284aa2b9727eef18eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '824326797f89375241a194f6aee14367') in 0.012558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 05 BUMP.png
+  artifactKey: Guid(2bdb162413ab580409b99cbb1815c14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 05 BUMP.png using Guid(2bdb162413ab580409b99cbb1815c14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa3ba0fa75c4bb7ca916988209c4cb51') in 0.014330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 07 FULL.png
+  artifactKey: Guid(ed1114cd24fb10c4b98c1c03816394cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 07 FULL.png using Guid(ed1114cd24fb10c4b98c1c03816394cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ccf4d3cf13ab15ec7f7dc0fc3004aac') in 0.014073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 05 FULL.png
+  artifactKey: Guid(c94cea22b1451d741bfa8e48de5ef33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 05 FULL.png using Guid(c94cea22b1451d741bfa8e48de5ef33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed15fcebc1f344b09acb41a3b6e87a4') in 0.014818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 04 BUMP.png
+  artifactKey: Guid(5e9707ceafcc1214289d43ba48616ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 04 BUMP.png using Guid(5e9707ceafcc1214289d43ba48616ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387e84c645cd071448e366e4f6779563') in 0.011804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 04 FX.png
+  artifactKey: Guid(3ae853da7e6a06043bdb8462be79e501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 04 FX.png using Guid(3ae853da7e6a06043bdb8462be79e501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9550e80db91b4dee5a78aba1df3152c0') in 0.012572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 06 BUMP.png
+  artifactKey: Guid(50291ce8a8b9b4e4e9c73f5d9c31a9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 06 BUMP.png using Guid(50291ce8a8b9b4e4e9c73f5d9c31a9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4047b6e47f445c1a24fb1a0b560bed3') in 0.014226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 05 FX.png
+  artifactKey: Guid(d7055b5e435182a4b833126f9299080f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 05 FX.png using Guid(d7055b5e435182a4b833126f9299080f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b2756d7cfc6d43afae5026a203dcf01') in 0.012846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 08 FX.png
+  artifactKey: Guid(e4b976979b2b5c944891dc3483219f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 08 FX.png using Guid(e4b976979b2b5c944891dc3483219f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b628a561acd1f00cb24be96dc8965f8') in 0.012053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 02 DIFFUSE.png
+  artifactKey: Guid(c3449d8cefa80004f81d8e28b409d0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Ground Material Sets MAN MADE/INDOOR/TEXTURES/Tiles 02 DIFFUSE.png using Guid(c3449d8cefa80004f81d8e28b409d0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8d355993b74c1187301c80939f96516') in 0.011582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2027.562899 seconds.
+  path: Assets/Tree_Textures/diffuse.png
+  artifactKey: Guid(0485a20a75d17c24787d6db098f4ed3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/diffuse.png using Guid(0485a20a75d17c24787d6db098f4ed3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30f171f1dd8b7f5a530622a3e87d4a6') in 0.018672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.370923 seconds.
+  path: Assets/Tree_Textures/normal_specular.png
+  artifactKey: Guid(d997b741e5ebf38439aa07a3227d0a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/normal_specular.png using Guid(d997b741e5ebf38439aa07a3227d0a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d2b97e6f24eb3e9b775424284cfbb8d') in 0.010786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.617601 seconds.
+  path: Assets/Tree_Textures/shadow.png
+  artifactKey: Guid(b35a2d3566a3f0b43a02bcd50e44482b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/shadow.png using Guid(b35a2d3566a3f0b43a02bcd50e44482b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4eca3f2590b55155b7dc0077da50bd') in 0.010245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.532603 seconds.
+  path: Assets/Tree_Textures/translucency_gloss.png
+  artifactKey: Guid(cce35894591d5f34280cd23303dd1192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/translucency_gloss.png using Guid(cce35894591d5f34280cd23303dd1192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbbd174ca44a404424cec5cf12de9149') in 0.014249 seconds 
