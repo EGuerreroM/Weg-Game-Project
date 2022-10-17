@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class Remy : MonoBehaviour
 {
-     public float velocidadMovimiento = 5.0f;
-        public float velocidadRotacion = 200.0f;
-        private Animator anim;
-        public float x, y;
+    private Animator anim;
+    public float velocidadMovimiento = 5.0f;
+    public float velocidadRotacion = 200.0f;
+    public float x, y;
+
     // Start is called before the first frame update
     void Start()
     {
-          anim= GetComponent<Animator>();
+        anim= GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -25,12 +26,6 @@ public class Remy : MonoBehaviour
 
         anim.SetFloat("VelX", x);
         anim.SetFloat("VelY", y);
-
-
-
-
     }
 }
-
-
   
