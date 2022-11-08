@@ -14,18 +14,25 @@ public class añañin : MonoBehaviour
     public NavMeshAgent IA;
     public float x, y;
 
+    public bool isAttacking;
+    public bool isMoving;
+    public float kick = 10f;
+
     void Start()
     {
           anim= GetComponent<Animator>();
+    }
+
+    private void FixedUpdate()
+    {
+        transform.Rotate(0, x * Time.deltaTime * velocidadRotacion, 0);
+        transform.Translate(0, 0, y * Time.deltaTime * velocidadMovimiento);
     }
 
     void Update()
     {
         IA.speed = Velocidad;
         IA.SetDestination(Objetivo.position);
-
-        transform.Rotate(0, x * Time.deltaTime * velocidadRotacion, 0);
-        transform.Translate(0, 0, y * Time.deltaTime * velocidadMovimiento);
 
         anim.SetFloat("velX", x);
         anim.SetFloat("velY", y);
