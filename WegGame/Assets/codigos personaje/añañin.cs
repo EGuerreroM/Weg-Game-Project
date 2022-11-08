@@ -14,9 +14,9 @@ public class añañin : MonoBehaviour
     public NavMeshAgent IA;
     public float x, y;
 
-    public bool isAttacking;
-    public bool isMoving;
-    public float kick = 10f;
+    public bool isAttacking = false;
+    public bool isMoving = false;
+    public float kickForce = 10f;
 
     void Start()
     {
@@ -25,8 +25,16 @@ public class añañin : MonoBehaviour
 
     private void FixedUpdate()
     {
-        transform.Rotate(0, x * Time.deltaTime * velocidadRotacion, 0);
-        transform.Translate(0, 0, y * Time.deltaTime * velocidadMovimiento);
+        if (!isAttacking) 
+        {
+            transform.Rotate(0, x * Time.deltaTime * velocidadRotacion, 0);
+            transform.Translate(0, 0, y * Time.deltaTime * velocidadMovimiento);
+        }
+
+        if (isMoving) 
+        {
+            Velocidad = velocidadMovimiento * kickForce;
+        }
     }
 
     void Update()
@@ -34,7 +42,28 @@ public class añañin : MonoBehaviour
         IA.speed = Velocidad;
         IA.SetDestination(Objetivo.position);
 
+        if (Input.GetKeyDown(KeyCode.Return))
+        {
+            anim.SetTrigger("Kick");
+            isAttacking = true;
+        }
+
         anim.SetFloat("velX", x);
         anim.SetFloat("velY", y);
+    }
+
+    public void StopAttack() 
+    {
+        isAttacking = false;
+    }
+
+    public void Moving() 
+    {
+        isMoving = true;
+    }
+
+    public void StopMoving()
+    {
+        isMoving = false;
     }
 }
